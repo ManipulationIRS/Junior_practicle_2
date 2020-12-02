@@ -106,7 +106,7 @@ class ManRobot:
 		
 	def f_X_enc(self,msg):
 		if msg[0] and self.__simState>0:
-			self.X_enc=msg[1]*100
+			self.X_enc=msg[1]*1000
 	
 	def f_Y_enc(self,msg):
 		if msg[0] and self.__simState>0:
